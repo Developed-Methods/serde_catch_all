@@ -57,6 +57,3 @@ fn main() {
 
 MIT
 
-## Contributing
-
-Issues and pull requests welcome! This started as a quick vibe project but has grown into something genuinely useful.
