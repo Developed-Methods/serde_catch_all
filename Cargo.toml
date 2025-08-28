@@ -1,0 +1,23 @@
+[package]
+name = "serde_catch_all"
+version = "0.1.0"
+edition = "2021"
+description = "A proc macro for creating Serde-compatible enums with catch-all variants"
+license = "MIT"
+repository = "https://github.com/Developed-Methods/serde_catch_all"
+keywords = ["serde", "enum", "catch-all", "proc-macro", "deserialization"]
+categories = ["encoding", "data-structures"]
+authors = ["Patrick Lorio <patrick@methods.dev>"]
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = { version = "2", features = ["full"] }
+
+[dev-dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
