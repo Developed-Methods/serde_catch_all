@@ -1,5 +1,7 @@
 # serde_catch_all
 
+**DO NO USE**, if you're using serde utilize #[serde(untagged)] on your enum as the catch all.
+
 **Notice:** made with AI prompting and I didn't review too closely. It's a proc macro so shouldn't affect runtime and doesn't appear to be adding in a backdoor :).
 
 A proc macro for creating Serde-compatible enums with catch-all variants that capture unknown string values instead of failing deserialization.
